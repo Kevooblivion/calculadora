@@ -3,8 +3,10 @@ from math import add, sub, div, mult
 op = input("Elige la operacion :")
 x = input("Ingresa un numero:")
 y = input("ingresa un numero:")
-n1 = float(x)
-n2 = float(y)
+tx = x.replace()
+ty = y.replace()
+n1 = float(tx)
+n2 = float(ty)
 
 if op == "sumar":
     add(n1,n2)
