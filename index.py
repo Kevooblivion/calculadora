@@ -1,4 +1,4 @@
-from calculadora import add, sub, div, mult
+from math import add, sub, div, mult
 
 op = input("Elige la operacion :")
 x = input("Ingresa un numero:")
